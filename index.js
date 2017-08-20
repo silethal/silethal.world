@@ -5,8 +5,8 @@ var permalinks  = require('metalsmith-permalinks');
 
 Metalsmith(__dirname)
     .metadata({
-        title: 'Silenthando',
-        description: 'Informational site for a Dungeon World campaign',
+        title: 'silethal.world',
+        description: 'Informational site for the world Silethal in a Dungeon World campaign',
         generator: 'Metalsmith',
         url: 'http://www.metalsmith.io/'
     })
