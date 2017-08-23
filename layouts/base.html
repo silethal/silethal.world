@@ -3,22 +3,23 @@
 <head>
   <meta charset="UTF-8" />
   <title>{{ title }}</title>
-  <meta name="description" content="{{ description }}">
+  {{#block "meta"}}
+    <meta name="description" content="{{ description }}">
+  {{/block}}
 </head>
 <body>
   <header>
-    <p>
-      <a href="/">Home</a>
-    </p>
+    <p><a href="/">Home</a></p>
   </header>
-  <h1>{{ title }}</h1>
-  <p>{{ description }}</p>
 
-  {{{ contents }}}
+  {{#block "body"}}
+    <h1>{{ title }}</h1>
+    <p>{{ description }}</p>
+    {{{ contents }}}
+  {{/block}}
 
   <footer>
     <p>Generated with {{ generator }} &mdash; <a href="{{ url }}">{{ url }}</a></p>
   </footer>
-
 </body>
 </html>
