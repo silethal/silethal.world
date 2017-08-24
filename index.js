@@ -7,6 +7,8 @@ var pageData          = require('metalsmith-page-data');
 var handlebars        = require('handlebars');
 var handlebarsLayouts = require('handlebars-layouts');
 
+var flatten           = require('./modules/flatten.js');
+
 // handlebars config
 handlebars.registerHelper(handlebarsLayouts(handlebars));
 
@@ -25,6 +27,10 @@ Metalsmith(__dirname)
             }
         }
     ]))
+    .use(flatten({
+        pattern: 'pages/**',
+        destination: 'pages'
+    }))
     .use(markdown())
     .use(permalinks())
     .use(layouts({
