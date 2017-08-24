@@ -10,6 +10,7 @@ var handlebars        = require('handlebars');
 var handlebarsLayouts = require('handlebars-layouts');
 
 var flatten           = require('./modules/flatten.js');
+var link              = require('./modules/link.js');
 
 // handlebars config
 handlebars.registerHelper(handlebarsLayouts(handlebars));
@@ -33,6 +34,7 @@ Metalsmith(__dirname)
         pattern: 'pages/**',
         destination: 'pages'
     }))
+    .use(link())
     .use(markdown())
     .use(permalinks())
     .use(layouts({
