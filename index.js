@@ -1,4 +1,6 @@
 var Metalsmith        = require('metalsmith');
+var writemetadata     = require('metalsmith-writemetadata');
+
 var markdown          = require('metalsmith-markdown');
 var layouts           = require('metalsmith-layouts');
 var permalinks        = require('metalsmith-permalinks');
