@@ -1,0 +1,6 @@
+a:link {
+    color: rgb(6, 69, 173);
+}
+a.invalid-link {
+    color: rgb(186, 0, 0);
+}

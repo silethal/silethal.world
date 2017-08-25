@@ -24,16 +24,24 @@ function processLinks(contents, files) {
             var slug = match.substring(2, match.length-2);
             var filename = slug + '.md';
             var title;
+            var fileFound = false;
             Object.keys(files).every(function(path) {
                 if (multimatch(path, '**/'+filename).length > 0) {
                     title = files[path].title;
+                    fileFound = true;
                     return false;
                 } else {
                     return true;
                 }
             });
-            var linkMd = '[' + title + '](' + '/pages/' + slug + '.html)';
-            output = output.replace(new RegExp('\\[\\[' + slug + '\\]\\]', 'g'), linkMd);
+            var linkText;
+            var href = '/pages/' + slug + '.html';
+            if (fileFound) {
+                linkText = '[' + title + '](' + href + ')';
+            } else {
+                linkText = '<a href="' + href + '" class="invalid-link">' + slug + '</a>';
+            }
+            output = output.replace(new RegExp('\\[\\[' + slug + '\\]\\]', 'g'), linkText);
         });
     }
     return output;
