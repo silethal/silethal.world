@@ -5,9 +5,12 @@ var markdown          = require('metalsmith-markdown');
 var layouts           = require('metalsmith-layouts');
 var permalinks        = require('metalsmith-permalinks');
 var pageData          = require('metalsmith-page-data');
+var search            = require('metalsmith-simple-search');
 
 var handlebars        = require('handlebars');
 var handlebarsLayouts = require('handlebars-layouts');
+
+var path              = require('path');
 
 var flatten           = require('./modules/flatten.js');
 var link              = require('./modules/link.js');
@@ -42,6 +45,13 @@ Metalsmith(__dirname)
     .use(layouts({
         engine: 'handlebars',
         partials: 'layouts'
+    }))
+    .use(search({
+        index: { title: true },
+        match: 'pages/**/*.html',
+        transformUrl: function(url) {
+            return path.basename(path.dirname(url));
+        }
     }))
     .build(function(err, files) {
         if (err) { throw err; }

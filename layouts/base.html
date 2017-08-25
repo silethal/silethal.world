@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <title>{{ title }}</title>
   <link rel="stylesheet" type="text/css" href="/css/style.css">
+  <script type="text/javascript" src="/simple-search.min.js"></script>
   {{#block "meta"}}
     <meta name="description" content="{{ description }}">
   {{/block}}
@@ -11,6 +12,27 @@
 <body>
   <header>
     <p><a href="/">Home</a></p>
+
+    <div id="search-container">
+      <input type="text" id="search-input" placeholder="search...">
+      <ul id="results-container"></ul>
+    </div>
+    <script type="text/javascript">
+        SimpleJekyllSearch({
+            searchInput: document.getElementById('search-input'),
+            resultsContainer: document.getElementById('results-container'),
+            json: '/search.json',
+            searchResultTemplate: '<li><a href={url}>{title}</a></li>',
+            noResultsText: 'No pages found',
+            limit: 10,
+            fuzzy: true,
+            templateMiddleware: function(prop, value, template) {
+                if (prop === 'url') {
+                    return '/pages/' + value + '/';
+                }
+            }
+        });
+    </script>
   </header>
 
   {{#block "body"}}
