@@ -18,7 +18,7 @@ var link              = require('./modules/link.js');
 // handlebars config
 handlebars.registerHelper(handlebarsLayouts(handlebars));
 
-Metalsmith(__dirname)
+var ms = Metalsmith(__dirname)
     .metadata({
         title: 'silethal.world',
         description: 'Informational site for the world Silethal in a Dungeon World campaign',
@@ -52,8 +52,12 @@ Metalsmith(__dirname)
         transformUrl: function(url) {
             return path.basename(path.dirname(url));
         }
-    }))
-    .build(function(err, files) {
-        if (err) { throw err; }
-    }
-);
+    }));
+
+// Run this module directly to build, or export the metalsmith object to
+// another script.
+if (module.parent) {
+    module.exports = ms;
+} else {
+    ms.build(function (err) { if (err) throw err; });
+}
