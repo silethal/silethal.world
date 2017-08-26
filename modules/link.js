@@ -16,7 +16,7 @@ function link(opts) {
 }
 
 function processLinks(contents, files) {
-    var regex = /\[\[[A-Za-z0-9]+\]\]/g;
+    var regex = /\[\[[A-Za-z0-9_-]+\]\]/g;
     var output = contents;
     var matches = output.match(regex);
     if (matches != null) {
