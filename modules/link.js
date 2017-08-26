@@ -35,7 +35,7 @@ function processLinks(contents, files) {
                 }
             });
             var linkText;
-            var href = '/pages/' + slug + '.html';
+            var href = '/pages/' + slug + '/';
             if (fileFound) {
                 linkText = '[' + title + '](' + href + ')';
             } else {
