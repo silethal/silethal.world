@@ -16,32 +16,47 @@ function link(opts) {
 }
 
 function processLinks(contents, files) {
-    var regex = /\[\[[A-Za-z0-9_-]+\]\]/g;
+    var regex = /\[\[[|A-Za-z0-9_-]+\]\]/g;
     var output = contents;
     var matches = output.match(regex);
     if (matches != null) {
         matches.forEach(function(match) {
-            var slug = match.substring(2, match.length-2);
+            var tokens = match.substring(2, match.length-2).split('|');
+            var slug;
+            var display;
+            if (tokens.length === 2) {
+                slug = tokens[0];
+                display = tokens[1];
+            } else if (tokens.length === 1) {
+                slug = tokens[0];
+            } else {
+                throw new Error('invalid link syntax: ' + match);
+            }
+
             var filename = slug + '.md';
-            var title;
             var fileFound = false;
             Object.keys(files).every(function(path) {
                 if (multimatch(path, '**/'+filename).length > 0) {
-                    title = files[path].title;
+                    if (display === undefined) {
+                        display = files[path].title;
+                    }
                     fileFound = true;
                     return false;
                 } else {
                     return true;
                 }
             });
+            if (display === undefined) {
+                display = slug;
+            }
             var linkText;
             var href = '/pages/' + slug + '/';
             if (fileFound) {
-                linkText = '[' + title + '](' + href + ')';
+                linkText = '[' + display + '](' + href + ')';
             } else {
-                linkText = '<a href="' + href + '" class="invalid-link">' + slug + '</a>';
+                linkText = '<a href="' + href + '" class="invalid-link">' + display + '</a>';
             }
-            output = output.replace(new RegExp('\\[\\[' + slug + '\\]\\]', 'g'), linkText);
+            output = output.replace(match, linkText);
         });
     }
     return output;
