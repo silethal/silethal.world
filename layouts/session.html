@@ -1,0 +1,10 @@
+{{#extend "page"}}
+  {{#content "body" mode="prepend"}}
+    {{#if previous includeZero=true}}
+      <a href="/pages/session{{previous}}/">Previous</a><br/>
+    {{/if}}
+    {{#if next}}
+      <a href="/pages/session{{next}}/">Next</a>
+    {{/if}}
+  {{/content}}
+{{/extend}}

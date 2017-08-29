@@ -14,6 +14,7 @@ var path              = require('path');
 
 var flatten           = require('./modules/flatten.js');
 var link              = require('./modules/link.js');
+var sessions          = require('./modules/sessions.js');
 
 // handlebars config
 handlebars.registerHelper(handlebarsLayouts(handlebars));
@@ -33,6 +34,16 @@ var ms = Metalsmith(__dirname)
             }
         }
     ]))
+    .use(pageData([
+        {
+            pattern: 'pages/sessions/*.md',
+            data: {
+                layout: 'session.html'
+            },
+            override: true
+        }
+    ]))
+    .use(sessions())
     .use(flatten({
         pattern: 'pages/**',
         destination: 'pages'
