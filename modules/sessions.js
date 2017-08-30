@@ -22,6 +22,11 @@ function sessions(opts) {
             }
         }
 
+        // set page titles
+        for (var i = 0; i < sessionFiles.length; ++i) {
+            sessionFiles[i].title = 'Session ' + i;
+        }
+
         // add a session list page
         var sessions = [];
         for (var i = 0; i < sessionFiles.length; ++i) {
