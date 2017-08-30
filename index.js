@@ -26,6 +26,7 @@ var ms = Metalsmith(__dirname)
         generator: 'Metalsmith',
         url: 'http://www.metalsmith.io/'
     })
+    .use(sessions())
     .use(pageData([
         {
             pattern: 'pages/**/*.md',
@@ -43,7 +44,6 @@ var ms = Metalsmith(__dirname)
             override: true
         }
     ]))
-    .use(sessions())
     .use(flatten({
         pattern: 'pages/**',
         destination: 'pages'

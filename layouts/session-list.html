@@ -1,0 +1,7 @@
+{{#extend "page"}}
+  {{#content "body" mode="append"}}
+    {{#each sessions}}
+      <p><a href="/pages/session{{number}}/">Session {{number}}</a></p>
+    {{/each}}
+  {{/content}}
+{{/extend}}

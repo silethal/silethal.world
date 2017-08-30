@@ -5,6 +5,7 @@ var multimatch = require('multimatch');
 
 function sessions(opts) {
     return function(files, metalsmith, done) {
+        // add next and previous links to session pages
         var sessionFiles = [];
         Object.keys(files).forEach(function(path) {
             if (multimatch(path, 'pages/sessions/session*.md').length > 0) {
@@ -20,6 +21,20 @@ function sessions(opts) {
                 sessionFiles[i].next = i+1;
             }
         }
+
+        // add a session list page
+        var sessions = [];
+        for (var i = 0; i < sessionFiles.length; ++i) {
+            sessions[i] = {number: i};
+        }
+        var sessionListFile = {
+            title: 'Sessions',
+            layout: 'session-list.html',
+            contents: Buffer.from(''),
+            sessions: sessions,
+        };
+        files[pathMod.join('pages', 'session-list.md')] = sessionListFile;
+
         done();
     };
 }
