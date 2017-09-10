@@ -59,9 +59,8 @@ were swatting a fly, and she is plunged into darkness.
 
 She sees, in the distance, a faint light. Nothing else is around her. No
 ground, so sky, no air. She walks towards the light. As she approaches, it
-begins to take the form of a [[moktan|huge orc]], bending over an anvil, hard
-at work.  She hears the sound of his hammer working on some curved piece of
-metal.  (what actually happens here?????).
+begins to take the form of a [[moktan|huge orc]], sitting in a massive throne.
+(what actually happens here?????).
 
 Corny, despite being unconscious, had been hard at work, however. From his
 cell, he dreams of his father, standing with him on a balcony, (details????).
