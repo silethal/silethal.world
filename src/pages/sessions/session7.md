@@ -58,7 +58,7 @@ pleads Dave to stop all this, and just come home to her. The guards start
 approaching them. They turn around to go the opposite direction, only to see
 the hoard of Blight Fluffy had sensed earlier heading down the tunnel towards
 them. Frightened, Dave's mom starts heading with the party towards her office
-while the four guards move in to handle the Blight.  Halfway there, Dave looks
+while the four guards move in to handle the Blight. Halfway there, Dave looks
 over his shoulder to see two have already been killed, and the other two are in
 a bad position as Blight begin to pass them.
 
@@ -77,7 +77,7 @@ Further down the hallway, Danid tries to knock on the backside of a bookshelf
 leading into the office of [[gautil]], head of the [[club_and_hammer]]. There
 is no answer, however, and they move on. Eventually, they arrive at a dead end.
 Danid scrapes her finger on the wall, and they hear a click. She slides the
-door aside.  On the other side, they are standing on a ledge overlooking
+door aside. On the other side, they are standing on a ledge overlooking
 expansive fields of mushrooms of every variety below them. Some way off, they
 see the mushrooms are green and flickering.
 
@@ -133,9 +133,9 @@ eyes are fully red.
 He approaches Dave, and the blight shrieks and dies around him as he walks.
 He's smiling in a friendly manner, which is still offset by his eyes. He speaks
 in a resonant voice, full of harmonic depth, displaying as much tonal skill in
-speech as a singer might in song.  He introduces himself as [[moktan]], God of
+speech as a singer might in song. He introduces himself as [[moktan]], God of
 Death and War, and asks Dave to join him in bringing Folendemkar back to its
-old days of glory.  Dave seems very enthusiastic about this, and throws in that
+old days of glory. Dave seems very enthusiastic about this, and throws in that
 he really thought the guy Moktan is possessing was kind of an asshole anyway.
 
 Moktan again begins walking towards Halt and Danid. Halt tries to throw a
@@ -147,7 +147,7 @@ taking a swig from her flask, and Halt grabs it from her, rips off part of his
 sleeve, and sticks it in the flask, setting it on fire. He then tries to shove
 it into Moktan's mouth. He misses, but the cocktail smashes to the ground and
 catches Moktan's robes on fire. He shakes them off and drops them to the
-ground. He pushes Halt and he flies into the wall.  Then Moktan reaches Danid
+ground. He pushes Halt and he flies into the wall. Then Moktan reaches Danid
 and says "I will hold your mother as collateral. You are in my employ, and I
 will not release you from it until our task is done. At that time, I will
 release your mother as well." He places his hand on her shoulder, and she falls

@@ -31,7 +31,7 @@ watching the execution. The room the executions are held in is a massive
 colosseum-like space, extending down three levels of [[folendemkar]]. Dave and
 Danid sit in the bleachers eating [[popshrooms|orcish popcorn]] as Loostiun
 sits shackled to a chair on a wooden platform in the center of the auditorium.
-A guard stands beside him, holding a black cloth hood in one hand.  Surrounding
+A guard stands beside him, holding a black cloth hood in one hand. Surrounding
 the platform are four more guards, two armed with maces and the other two with
 swords.
 
@@ -53,7 +53,7 @@ form of Corny himself! The pair stands back to back, Mokrab attempting to
 defend herself with a small white light glowing in her hand. This light does
 nothing to ward off the Corny spore, however, and it appears suddenly closer
 with its hand in her chest, bringing her to her knees. Slightly panicked, the
-two retreat back into the workshop, closing the door behind them.  The spores
+two retreat back into the workshop, closing the door behind them. The spores
 phase through the door.
 
 Dave meanwhile is having no luck convincing the trio to stay put and give up on
@@ -65,7 +65,7 @@ Loostiun is sitting on.
 The guards take notice and start heading their way. Quiggers deftly disarms one
 and stabs him with his own sword. Pomin duels hand-to-sword with a second
 before taking him out. Stol stands at a distance making punching motions in the
-air. The two remaining, both with maces, get closer.  By this point, the
+air. The two remaining, both with maces, get closer. By this point, the
 executioner has placed the hood on Loostiun's head, and is beginning to strike
 fire to it using flint and steel.
 
@@ -91,10 +91,10 @@ screams. His face under the hood is calm, placid even, his mouth closed and
 unmoving, while his voice yells out louder than ever.
 
 Dave blinks, and the [[the_necromancer|mage who was Loostiun]] is only a few
-feet in front of him.  "Hello Dave," he says. "Long time no see." Dave
+feet in front of him. "Hello Dave," he says. "Long time no see." Dave
 recognizes him as one of the necromancers he used to travel with, who he left
 long ago. The remaining dead orc guards rise to their feet and approach the
-party.  The Necromancer says he needs to see a wizard friend of theirs, they
+party. The Necromancer says he needs to see a wizard friend of theirs, they
 blink, and he's vanished.
 
 The screams of the executioner slowly fade. His hood is gone now, leaving just

@@ -8,7 +8,7 @@ down as if it's breathing, but the bobbing is too steady, too regular, as if
 the same exact, rehearsed motion is simply being repeated over and over. It
 bears a person's face, long hair and young skin, but there is no life behind
 it. The lips form an unsettling smile, which in shape is nothing out of the
-ordinary.  The smile, however, does not reach the eyes.
+ordinary. The smile, however, does not reach the eyes.
 
 The creature which stands outside the party's camp is similar. This time
 appearing a man, a couple days growth of stubble on its face, the same
@@ -102,5 +102,5 @@ compliments him on his fighting. He brushes it off gallantly.
 
 And then a click is heard from the side of the cave opposite the entrance. Ken
 looks up from her box and says "That wasn't me". Then a new door swings open,
-and a tall [[danid|orc woman]] steps out.  She cries "David!" and runs to hug
-him.  He hugs her and replies "Mommy!"
+and a tall [[danid|orc woman]] steps out. She cries "David!" and runs to hug
+him. He hugs her and replies "Mommy!"

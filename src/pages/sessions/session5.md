@@ -32,10 +32,10 @@ anvil is now burned into it. She wakes up.
 basin and mattress against the wall. Dave doesn't have too long to wait however
 before [[danid|his mother]] is there to visit him. She says she had to be
 interrogated after what happened, and that while she was found innocent, the
-same could not be said for Dave's friends.  She begs him to give up this
+same could not be said for Dave's friends. She begs him to give up this
 nonsense, and just come stay with her in Folendemkar, at least for a little
 while. Dave says he isn't leaving without his friends, and asks to speak to the
-person in charge.  His mother heads off to get someone.
+person in charge. His mother heads off to get someone.
 
 After some time, another orcish face appears outside the bars. She introduces
 herself as [[gautil]], head of the [[club_and_hammer]], effectively
@@ -50,14 +50,14 @@ yelling (????) one cell over. A few times, he calls the nearby guard over to
 his cell, just to annoy him. The guard ends up slamming his palms against the
 door to startle Quiggers, then walks back to his post chuckling.
 
-Quiggers and Stol start up a conversation (about what????).  [[pomin]], who is
+Quiggers and Stol start up a conversation (about what????). [[pomin]], who is
 two cells over, joins in. Through this conversation, Quiggers senses that Pomin
 might know more about the [[blight]] than she had previously let on. He presses
 her on it, and eventually she concedes that she picked up a decent amount of
 knowledge from [[ken]] on their travels. She says that the Blight is a disease,
 but not one that affects people. It only spreads through infecting plants. The
 flickering green creatures they have encountered are only spores, which take
-humanoid form as a way of scaring off potential predators.  In actuality, the
+humanoid form as a way of scaring off potential predators. In actuality, the
 Blight is a disease of the earth.
 
 Corny, after his long dream-filled sleep, wakes up in the dark cell he shares
@@ -87,7 +87,7 @@ sees through it. He introduces himself as [[kaea|Kaea]], and asks if Halt wants
 to get out of here. He himself is imprisoned because he was trying to steal
 from Folendemkar's treasury, and he plans on making another attempt. A sound of
 scraping and tinkling metal comes from the cell, and after a minute, the door
-creaks open.  Halt hears a guard shout "Hey there!", run to the door, and then
+creaks open. Halt hears a guard shout "Hey there!", run to the door, and then
 grunt and fall to the ground.
 
 A handsome, smiling human face appears outside Halt's window. Kaea unlocks the

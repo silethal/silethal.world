@@ -44,7 +44,7 @@ and chases after her. Dave remains to guard the cart.
 Meanwhile, Corny and Halt try to sneak into the camp. Corny casts invisibility
 on Halt, and it appears to succeed. However, when Halt approaches one of the
 tents, he is detected and a hand with a knife jabs out at him. He falls back as
-mages emerge from all four tents and point staffs and hands his way.  Halt
+mages emerge from all four tents and point staffs and hands his way. Halt
 quickly shoots an arrow at [[fur|the mage with the knife]], striking him in the
 head and killing him. All the remaining mages drop whatever their holding and
 throw their hands up, shocked and terrified by the murder of their friend.

@@ -49,10 +49,10 @@ spell, turning Fluffy visible again.
 While the guards are distracted with Corny, however, Fluffy manages to follow
 them unnoticed as they drag him down various tunnels towards his cell. But then
 the guards turn and notice her, yelling something about it being the tree rat
-they saw with the party earlier.  She dodges around the one nearest to her as
-he slashes his sword down into the ground all around her, and she leaps onto
-the shoulder of the one by the door, hoping to springboard from there through
-the small barred window into Corny's cell.
+they saw with the party earlier. She dodges around the one nearest to her as he
+slashes his sword down into the ground all around her, and she leaps onto the
+shoulder of the one by the door, hoping to springboard from there through the
+small barred window into Corny's cell.
 
 However, she is too slow. The guard slams his hand down on top of her as if he
 were swatting a fly, and she is plunged into darkness.
