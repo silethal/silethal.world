@@ -23,6 +23,13 @@ convince Stol to sell the contents at the port at significantly less than they
 would fetch at the capital. Fluffy transforms into a horse, and she and Dave
 drag the cart east, with Stol occasionally hopping aboard when he gets tired.
 
+One night, Fluffy again feels an unfamiliar wave a drowsiness. She manages to
+fight the urge to sleep, but does briefly doze off several times, during which
+she appears in the endless black void where she first met [[moktan]]. She sees
+a figure in the distance, but while last time it was shadowy and hard at work
+on an anvil, this time it is seated on a throne, its edges illuminated faintly
+in a soft purple glow. She sees nothing more.
+
 They arrive at the port city by early evening. Parking the cart out front of
 [[sea_badger|the Sea Badger]], the inn they were slated to stay at, they go
 inside to check it out. Dave asks [[saen]] the innkeeper if the inn has any
