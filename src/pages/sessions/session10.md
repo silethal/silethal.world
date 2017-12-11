@@ -2,17 +2,18 @@
 date: 12-8-2017
 ---
 
-The ordeal in [[folendemkar]] over, the party plans their next move. [[pomin]]
-and a host of orcs will head north to the [[capital]], where they can run recon
-on the [[blight]] infestation there. [[dave]], [[fluffy]], and [[halt]],
-however, will head east with [[stol]] to the port city on the coast, aiming to
-charter a ship east to the islands. There, they can try to make a deal with the
-dragons to join them in their war on the Blight. They are given the food they
-need for the journey and money for an inn in town. The port and the surrounding
-areas are rocky and non-arable, meaning food only comes into the port through
-trade. The party is given instructions to meet with a merchant named [[pan]]
-who will provide them with funds for a boat in exchange for finalizing a
-continuing trade deal of mushrooms with Folendemkar.
+The ordeal in [[folendemkar]] over, the party plans their next move. [[kaea]]'s
+body is buried, although [[halt]] makes a necklace out of some of his teeth for
+[[fluffy]]. [[pomin]] and a host of orcs will head north to the [[capital]],
+where they can run recon on the [[blight]] infestation there. [[dave]], Fluffy,
+and Halt, however, will head east with [[stol]] to the port city on the coast,
+aiming to charter a ship east to the islands. There, they can try to make a
+deal with the dragons to join them in their war on the Blight. They are given
+the food they need for the journey and money for an inn in town. The port and
+the surrounding areas are rocky and non-arable, meaning food only comes into
+the port through trade. The party is given instructions to meet with a merchant
+named [[pan]] who will provide them with funds for a boat in exchange for
+finalizing a continuing trade deal of mushrooms with Folendemkar.
 
 The party returns to the surface to begin their trek east. The Blight spores
 are few and far between now, spread thin across the land and unable to secure a
