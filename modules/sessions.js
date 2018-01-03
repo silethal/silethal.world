@@ -29,6 +29,16 @@ function sessions(opts) {
             sessionFiles[i].title = 'Session ' + i;
         }
 
+        // set time zone if available
+        for (var i = 0; i < sessionFiles.length; ++i) {
+            sessionFiles[i].displayDate = sessionFiles[i].date;
+            if (sessionFiles[i].timeZone) {
+                sessionFiles[i].date += ' ' + sessionFiles[i].timeZone;
+            } else {
+                sessionFiles[i].date += ' PST';
+            }
+        }
+
         // add a session list page
         var sessions = [];
         for (var i = 0; i < sessionFiles.length; ++i) {
