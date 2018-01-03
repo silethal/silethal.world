@@ -7,6 +7,10 @@ var permalinks        = require('metalsmith-permalinks');
 var pageData          = require('metalsmith-page-data');
 var search            = require('metalsmith-simple-search');
 
+var collections       = require('metalsmith-collections');
+var feed              = require('metalsmith-feed');
+var excerpts          = require('metalsmith-better-excerpts');
+
 var handlebars        = require('handlebars');
 var handlebarsLayouts = require('handlebars-layouts');
 
@@ -21,10 +25,13 @@ handlebars.registerHelper(handlebarsLayouts(handlebars));
 
 var ms = Metalsmith(__dirname)
     .metadata({
-        title: 'silethal.world',
-        description: 'Informational site for the world Silethal in a Dungeon World campaign',
+        site: {
+            title: 'silethal.world',
+            description: 'Informational site for the world Silethal in a Dungeon World campaign',
+            url: 'https://www.silethal.world'
+        },
         generator: 'Metalsmith',
-        url: 'http://www.metalsmith.io/'
+        generatorUrl: 'http://www.metalsmith.io/'
     })
     .use(sessions())
     .use(pageData([
@@ -52,6 +59,19 @@ var ms = Metalsmith(__dirname)
     .use(markdown())
     .use(permalinks({
         relative: false
+    }))
+    .use(collections({
+        sessions: {
+            sortBy: 'sessionNumber',
+            reverse: true
+        }
+    }))
+    .use(excerpts({
+        stripTags: false
+    }))
+    .use(feed({
+        collection: 'sessions',
+        limit: false
     }))
     .use(layouts({
         engine: 'handlebars',
