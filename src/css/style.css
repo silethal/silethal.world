@@ -1,5 +1,7 @@
-p {
-    width: 600px;
+body {
+    margin: 0 auto;
+    max-width: 630px;
+    padding: 0 15px;
 }
 
 a:link {
