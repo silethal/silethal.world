@@ -118,8 +118,8 @@ and tosses 15 each to the guards to prove his point. "And we've got 500 more we
 can split among you."
 
 "Guards!?" Theon yells as they confer about the offer. "Sounds good to us,"
-they say, "but let's keep it between just us two. (guard's name???) down below
-doesn't need to know."
+they say, "but let's keep it between just us two. [[garan]] down below doesn't
+need to know."
 
 Worried that Theon might now run and tell the authorities, Halt charges him and
 punches at his face. He ducks with surprising quickness, however, and shoves a
