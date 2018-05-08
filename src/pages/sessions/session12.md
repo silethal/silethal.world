@@ -53,6 +53,13 @@ indistinct except for her intense, urgent face. Behind the throne unfurls a
 long, white, smokey snake, reaching up into the sky. Then the anvil and sickle
 moon symbol on her paw burns, and she is jolted awake.
 
+Before sleeping, they all gather in Theon's room to question him. He assures
+them that the authorities are probably already on their way, and releasing him
+now could lessen their sentences. Eventually, after some bad negotiation by
+Halt relegates him to a timeout in the corner, they come to an agreement that
+if they untie and ungag Theon, he will happily remain silent until the police
+arrive. They do so, and leave.
+
 The party settles in for the night. The guards are taking turns keeping watch
 and navigating above deck, while below the two others sleep or play dice.
 Dave, Fluffy, and Halt each retire to their own rooms and sleep.
